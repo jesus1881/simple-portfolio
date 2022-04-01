@@ -1,0 +1,67 @@
+:root {}
+
+* {
+    color: white;
+}
+
+body {
+    background-color: #dcdcdc;
+}
+
+header {
+    background-color: #dc143c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+
+.name-header {
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.nav-bar-ul {
+    margin-right: 25px;
+}
+
+.nav-li {
+    display: inline-block;
+    padding: 0px 30px 0px 5px;
+    color: white;
+    font-size: 24px;
+}
+
+.page-container {
+    width: 85%;
+    margin: auto;
+    display: block;
+    background-color: #dc143c;
+}
+
+.main-container {
+    margin-top: 5%;
+}
+
+.main-container {}
+
+.image-container {
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+.porfolio-img {
+    border-radius: 50%;
+    border: #dcdcdc solid 4px;
+}
+
+.about-header {
+    font-size: 30px;
+}
+
+.about-divider {
+    border: #dcdcdc solid 1px;
+    width: 40%;
+}
