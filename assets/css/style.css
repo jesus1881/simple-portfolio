@@ -34,17 +34,29 @@ header {
 }
 
 .page-container {
-    width: 85%;
+    width: 90%;
     margin: auto;
     display: flex;
     background-color: #dc143c;
     margin-top: 4%;
 }
 
+.section-about {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-work-li {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
 .main-container {
     text-align: center;
 }
-
 
 .image-container {
     padding-top: 4%;
@@ -58,8 +70,8 @@ header {
 }
 
 .about-header,
-.work-header {
-    display: inline-block;
+.work-header,
+.contact-header {
     font-size: 30px;
     margin: 10px 0px 5px 0px;
     border-bottom: #dcdcdc solid 3px;
@@ -67,10 +79,20 @@ header {
     padding-bottom: 8px;
 }
 
+.work-header,
+.contact-header {
+    display: inline-block;
+}
+
 .section-content h2 {
     font-size: 30px;
     margin-bottom: 10px;
     padding-top: 8px;
+}
+
+.about-divider {
+    border: #dcdcdc solid 1px;
+    width: 40%;
 }
 
 .section-content p {
@@ -80,9 +102,52 @@ header {
     font-size: 16px;
 }
 
-.about-divider {
-    border: #dcdcdc solid 1px;
+.work-content {}
+
+.project-li {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.run-buddy {
+    background-image: url(../images/run-buddy-img.jpg);
+    height: 250px;
+    width: 87%;
+    padding: 20px;
+    margin: 40px auto;
+    background-size: 100% 100%;
+}
+
+.run-buddy h3 {
+    float: left;
+    font-size: 24px;
+    background-color: #dcdcdc;
+    padding: 10px 10px;
+    color: #dc143c;
+}
+
+.robot-glad {
+    background-image: url(../images/robot-gladd-img.jpg);
+    float: left;
+    height: 250px;
+    background-size: 100% 100%;
     width: 40%;
 }
 
-.run-buddy {}
+.robot-glad h3,
+.task-master h3 {
+    float: left;
+    font-size: 24px;
+    background-color: #dcdcdc;
+    padding: 10px 10px;
+    color: #dc143c;
+    margin: 10px 10px;
+}
+
+.task-master {
+    background-image: url(../images/task-master-pro-img.jpg);
+    height: 250px;
+    background-size: 100% 100%;
+    width: 40%;
+}
